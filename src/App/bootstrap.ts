@@ -1,4 +1,4 @@
-import * as joy from "../Joy"
+import * as joy from "../Joy/index"
 
 import {MyComponent} from "./Component/MyComponent"
 

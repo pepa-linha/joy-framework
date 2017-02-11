@@ -5,6 +5,7 @@
         "experimentalDecorators": true
     },
     "files": [
+        "node_modules/@types/jquery/index.d.ts",
         "src/App/bootstrap.ts"
     ]
 }

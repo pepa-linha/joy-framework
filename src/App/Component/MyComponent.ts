@@ -1,5 +1,5 @@
-import * as joy from "../../Joy"
-import {Component, Inject} from "../../Joy/Decorators"
+import * as joy from "../../Joy/index"
+import {Component, Inject} from "../../Joy/Decorators/index"
 import {Finder} from "../../Joy/Service/Finder"
 import {MyFirstService} from "../Service/MyFirstService"
 

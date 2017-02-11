@@ -1,12 +1,13 @@
 {
   "name": "joy",
   "version": "1.0.0",
-  "description": "Simple component-based JavaScript framework typed in Typescript 2.",
+  "description": "Simple component-based JavaScript framework written in Typescript 2.",
   "scripts": {
     "build": "node_modules/.bin/webpack",
     "build-production": "NODE_ENV=production node_modules/.bin/webpack -p --config ./webpack.production.config.js",
     "dev-server": "node_modules/.bin/webpack-dev-server --open",
-    "dev-server-hot": "node_modules/.bin/webpack-dev-server --hot --open"
+    "dev-server-hot": "node_modules/.bin/webpack-dev-server --hot --open",
+    "doc": "typedoc --out ./.doc --module commonjs"
   },
   "author": {
     "name": "Pepa Linha",
