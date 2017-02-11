@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Joy Framework</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="built/main.css" rel="stylesheet">
+        <style>
+            .MyComponent {
+                padding: 30px;
+                background: #f5f5f5;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Joy Framework</h1>
+        <p>Simple component-based JavaScript framework typed in Typescript 2.</p>
+
+        <div class="MyComponent" component="MyComponent">
+
+            <h2>Example component <i>MyComponent</i></h2>
+
+            <div template="items"></div>
+
+            <button class="js-show">Print Items</button>
+            <button class="js-clear">Clear Items</button>
+            
+            <script type="template" name="items">
+                <% if (items.length) { %>
+                    <ul class="List">
+                    <% for(var i = 0, len = items.length, item; i < len; i++) { %>
+                        <% item = items[i]; %>
+                        <li class="List-item"><%= item %> <a href="#" class="js-remove">Remove</a></li>
+                    <% } %>
+                    </ul>
+                <% } else { %>
+                    <p>No items.</p>
+                <% } %>
+            </script>
+        </div>
+
+        <script src="jquery-2.2.4.js"></script>
+        <script src="built/bundle.js"></script>
+    </body>
+</html>

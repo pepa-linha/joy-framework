@@ -1,0 +1,10 @@
+{
+    "moduleResolution": "node",
+    "compilerOptions": {
+        "sourceMap": true,
+        "experimentalDecorators": true
+    },
+    "files": [
+        "src/App/bootstrap.ts"
+    ]
+}
