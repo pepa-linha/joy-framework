@@ -1,6 +1,6 @@
 {
   "name": "joy",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "Simple component-based JavaScript framework written in Typescript 2.",
   "scripts": {
     "build": "node_modules/.bin/webpack",
@@ -14,7 +14,6 @@
     "email": "j.linha@seznam.cz",
     "url": "http://webdream.cz"
   },
-  "license": "ISC",
   "dependencies": {
     "@types/jquery": "^2.0.40"
   },
